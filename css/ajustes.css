@@ -1,0 +1,252 @@
+body{
+padding-top:50px;
+background: #ccc url(../images/one-brick.jpg) no-repeat center fixed;
+color:#000;
+font-family: 'Open Sans', sans-serif;
+-webkit-background-size:cover;
+-moz-background-size:cover;
+-o-background-size:cover;
+background: cover;
+text-align: center;
+}
+
+body img{
+   width: 70%;
+}
+
+.datos h3{
+font-weight: 700;
+padding-bottom: 30px       
+}
+h1{
+    font-size: 3.5em;
+}
+
+@font-face{
+    
+    font-family: 'Aller Regular';
+    src: url('../fonts/aller.regular.ttf');
+}
+
+@font-face{
+    
+    font-family: 'Aller Bold';
+    src: url('../fonts/aller.bold.ttf');
+}
+
+@font-face{
+    
+    font-family: 'Aller Light';
+    src: url('../fonts/aller.light.ttf');
+}
+
+
+h1{
+    font-family: 'Aller Bold',sans-serif;
+    font-size: 3.5em;
+}
+
+h2,h3{
+    font-family: 'Aller Regular',sans-serif;
+    font-size: 3.5em;
+}
+h2{
+    font-size: 3em; 
+}
+
+h3{
+    font-size: 2em;
+}
+
+h4,p{
+    
+    font-family: 'Aller Light',sans-serif;
+    font-size 1.3em
+}
+#banner{
+     background:white;
+     border-color:yellow;
+
+}
+
+
+.navbar inverse{
+    background-color:#fff;
+    border-bottom-width: medium;
+    border-color:#ffc507;
+}
+
+.navbar inverse .navbar-toggle{
+background:#770000;
+}
+
+
+
+.navbar-inverse .navbar-nav>li>a{
+    color:#770000;
+    background-color: transparent;
+}
+
+.navbar-inverse .navbar-nav>li>a:hover{
+    color:#ffc507;
+    background-color: transparent;
+    text-transform: uppercase;
+}
+
+.navbar-inverse .navbar-nav>li>a:focus{
+    color:#770000;
+    background-color: transparent;
+    text-transform: uppercase;
+}
+
+.navbar-inverse .navbar-nav>open>a{
+    
+   color:#770000;
+    background-color: transparent;
+    text-transform: uppercase;  
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+#boton{
+      background:#770000;
+}
+
+.btn-default{
+    background:#770000;
+    border-color:transparent;
+   color:#fff;
+    font-size:2em;
+   margin-top: 15px;
+}
+
+.btn-default:hover{
+ background:#fff;;
+ color:#770000;
+    
+
+}
+.texto-cotiza-der{
+    margin-top: 100px
+}
+
+#frase-wrapper{
+    background-color:rgba(119,0,0,0.5);
+    color:fff;
+    margin-top:60px;
+}
+
+#frase-wrapper footer{  
+    color:#000;
+
+}
+
+#nosotros-wrapper{
+    background: #ccc url('../images/concrete_seamless.png') repeat center center fixed;
+    border-bottom: 10px solid rgba(0,0,0,0.1);
+    border-top: 10px solid rgba(0,0,0,0.1);
+    color: #770000;
+    padding-bottom: 126px;
+}
+
+#nosotros-wrapper h2{
+padding-top: 60px;
+
+}
+
+#nosotros-wrapper hr{
+
+border-top:1px solid #770000;
+width: 100px;
+
+}
+
+
+#contacto-wrapper{
+    color:#ccc;
+    background: #ccc url('../images/callcat.jpg') no-repeat center center fixed;
+    margin-bottom: 20px;
+    margin-top: 10px;
+}
+
+#contacto-wrapper hr{
+    margin-top:1px solid #ccc;
+    width: 100px;
+
+}
+.datos {
+    padding-bottom: 30px;
+}
+
+#singlebutton {
+    color:#fff;
+    background-color: #770000;
+}
+
+#singlebutton:hover {
+    color:#770000;
+    background-color:#fff;
+}
+
+#footer-wrapper {
+    background-color:#770000;
+    color:#fff;
+    text-align: center;
+    margin-top: 15px;
+    border-top-width: 15px;
+    padding-top: 20px;
+    padding-bottom: 10px;
+    margin-bottom:-20px;
+}
+
+.iconos {
+margin-top: -10px;
+bottom: -4px;
+
+  
+}
+
+
+.dropdown-menu>li>a{
+color:#770000;
+background-color: transparent;
+ 
+       
+   
+    
+}
+
+
+.dropdown-menu>li>a:focus {
+color:#770000;
+background-color: transparent;
+    
+}
+
+.dropdown-menu>li>a:hover {
+color:#770000;
+background-color: transparent;
+}
+
+.navbar-inverse .navbar-nav .open .dropdown-menu>li>a {
+  color:#770000;
+background-color: transparent;
+}
+
+.navbar-inverse .navbar-nav .open .dropdown-menu>li>a:hover {
+  color:#ffc507;
+background-color: transparent;
+}
+
+

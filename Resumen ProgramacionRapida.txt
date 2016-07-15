@@ -1,0 +1,124 @@
+bootstrap  Codigo preestablecido para 
+
+
+http://getbootstrap.com/
+
+--> descargar paquete e copiar Basic template
+
+tempate banner
+
+--> dividir la pagina en secciones
+
+<section id="frase-wrapper"></section>
+
+--> para mover todo a la derecha
+
+ <ul class="nav navbar-nav navbar-right">  agregar navbar-rigth
+
+==> los textos quedan debajo del banner-paraevitarlo al body se le agrega un paddin
+
+  <body style="padding:70px"> o en css body{padding:70px}
+
+==> <link href=css/ajustes.css rel="stylesheet">
+
+
+==> seccion personalizada de bootstrap
+
+     <section id="costructora-wrappen">       
+         <div class="container descripcion-emrpesa" >
+             <div class="row">
+                <div class="col-sm-6 texto-cotiza-izq">                                   
+                     <h1>Hello world</h1>
+                 </div>           
+             </div>     
+         </div>
+      </section> 
+
+==>crear un boton
+
+  <a href="#" class="btn btn-default">Cotiza el proyecto</a>
+
+==> Agregar imagen
+
+http://fontawesome.io/get-started/
+
+==> Link
+
+  <link rel="stylesheet" href="font-awesome/css/font-awesome.min.css">
+
+icon example
+
+  <i class="fa fa-bug fa-3x" aria-hidden="true"></i>
+
+==> CSS===========================
+
+body{
+padding-top:50px;
+background: #ccc url(../images/one-brick.jpg) no-repeat center fixed;
+color:#000;
+font-family: 'Open Sans', sans-serif;
+-webkit-background-size:cover;
+-moz-background-size:cover;
+-o-background-size:cover;
+background: cover;
+text-align: center;
+}
+
+@font-face{
+    
+    font-family: 'Aller Regular';
+    src: url('../fonts/aller.regular.ttf');
+}
+
+h4,p{
+    
+    font-family: 'Aller Light',sans-serif;
+    font-size 1.3em
+}
+
+#boton{
+      background:#770000; ==>Rojo
+}
+
+
+.btn-default{
+    background:#770000;
+    border-color:transparent;
+   color:#fff;
+    font-size:2em;
+   margin-top: 15px;
+}
+
+.btn-default:hover{
+ background:#fff;;
+ color:#770000;
+    
+}
+
+#frase-wrapper{
+    background-color:rgba(119,0,0,0.5);
+    color:fff;
+    margin-top:60px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
